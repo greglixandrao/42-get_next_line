@@ -6,7 +6,7 @@
 /*   By: gtreviza <gtreviza@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/24 03:07:36 by gtreviza          #+#    #+#             */
-/*   Updated: 2022/11/04 01:07:15 by gtreviza         ###   ########.fr       */
+/*   Updated: 2022/11/27 23:42:09 by gtreviza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -93,7 +93,7 @@ static char	*rested_line(char *line)
 	return (rest);
 }
 
-char *get_next_line(int fd)
+char	*get_next_line(int fd)
 {
 	static char	*line;
 	char		*print_line;
